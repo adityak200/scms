@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in or join Aanchal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&family=Italiana&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="account-page">
+    <div class="grain"></div>
+    <main class="account-shell"><a href="index.html" class="account-brand"><img src="maincontent/logo.png" alt="Aanchal" /><span>Aanchal<small>The warmth of a mother's embrace</small></span></a><div class="account-layout"><section class="account-welcome"><p class="eyebrow">A softer place to return to</p><h1>Your care,<br /><em>kept close.</em></h1><p>Save your care package, keep track of orders, and make Aanchal feel a little more like yours.</p><a href="index.html" class="back-link">← Back to Aanchal</a></section><section class="account-card"><div class="account-tabs"><button class="active" type="button" data-account-tab="signup">Create account</button><button type="button" data-account-tab="login">Sign in</button></div><form class="account-form active" data-account-form="signup"><h2>Welcome in.</h2><p>Join Aanchal for thoughtful care, close at hand.</p><label>Full name<input required autocomplete="name" placeholder="Your full name" /></label><label>Email address<input required type="email" autocomplete="email" placeholder="you@example.com" /></label><label>Create password<input required type="password" minlength="6" autocomplete="new-password" placeholder="At least 6 characters" /></label><button type="submit" class="account-submit">Create my account <span>→</span></button></form><form class="account-form" data-account-form="login"><h2>Good to see you.</h2><p>Sign in to return to your care.</p><label>Email address<input required type="email" autocomplete="email" placeholder="you@example.com" /></label><label>Password<input required type="password" autocomplete="current-password" placeholder="Your password" /></label><a href="#" class="forgot-link">Forgot your password?</a><button type="submit" class="account-submit">Sign in <span>→</span></button></form><p class="account-status" role="status"></p><small class="account-note">This is a front-end account experience. Connect it to your authentication provider before launch.</small></section></div></main><script src="account.js"></script>
+  <script src="motion.js"></script>
+  </body>
+</html>
